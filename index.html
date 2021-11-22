@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="first" id="chngClr">
+      <h2>Hello World</h2>
+      <h2>JavaScript Assignment</h2>
+      <div>
+        <button onclick="chngTxtClr()">Change Text Color</button>
+        <button onclick="chngBgClr()">Change Background Color</button>
+      </div>
+    </div>
+
+    <div class="second1">
+      <img src="./Images/1.jpg" alt="" id="img" />
+      <h2 id="txt">Click on show image button to show image</h2>
+    </div>
+    <div class="second2">
+      <button onclick="showImg()">Show Image</button>
+      <button onclick="bigImg()">Big Image</button>
+      <button onclick="smallImg()">Small Image</button>
+      <button onclick="hideImg()">Hide Image</button>
+    </div>
+
+    <div class="third">
+      <img
+        src="./Images/off.gif"
+        alt=""
+        onmouseover="bulbToggler(1,this)"
+        onmouseleave="bulbToggler(0,this)"
+      />
+    </div>
+
+    <div class="fourth">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quis
+        eligendi incidunt enim odit dicta id commodi. Nesciunt, beatae nobis
+        voluptas voluptates fuga odit! Odio autem consequatur facilis aliquid
+        accusamus. Enim nostrum mollitia, natus, quasi maiores molestias sunt ut
+        porro numquam veritatis debitis aliquam neque, reiciendis ducimus
+        deleniti impedit assumenda inventore atque autem alias. Illum quia ea
+        cum nisi facilis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+        aspernatur incidunt, molestias ullam nesciunt blanditiis enim dolore,
+        alias autem, beatae distinctio quo? Ratione id fugit aut nihil odio,
+        maxime omnis! Deleniti, cumque quasi obcaecati libero consectetur
+        reprehenderit dolores distinctio, qui ipsa tempore blanditiis, ut
+        repellat explicabo dolorum ipsum quae facilis vero odit consequuntur
+        dolor! Ad veritatis exercitationem tempore mollitia nihil?
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ab illum ut
+        sed ad ratione quasi cupiditate, iste veniam ipsam. Odio totam
+        dignissimos cum expedita, nulla illo a obcaecati fugiat! Placeat quo
+        ipsam corporis temporibus eos dignissimos perferendis, culpa hic nostrum
+        quod tenetur ex deleniti itaque fugiat illo eveniet dolorum quas
+        repudiandae. Asperiores ullam numquam enim vero sequi corporis minus.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ab illum ut
+        sed ad ratione quasi cupiditate, iste veniam ipsam. Odio totam
+        dignissimos cum expedita, nulla illo a obcaecati fugiat! Placeat quo
+        ipsam corporis temporibus eos dignissimos perferendis, culpa hic nostrum
+        quod tenetur ex deleniti itaque fugiat illo eveniet dolorum quas
+        repudiandae. Asperiores ullam numquam enim vero sequi corporis minus.
+      </p>
+      <div class="btn">
+          <button onclick="chngParaClr()">Change Paragraph Color</button>
+      </div>
+    </div>
+
+  </body>
+  <script src="app.js"></script>
+</html>
